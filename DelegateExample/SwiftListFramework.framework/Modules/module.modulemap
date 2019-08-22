@@ -1,0 +1,11 @@
+framework module SwiftListFramework {
+  umbrella header "SwiftListFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftListFramework.Swift {
+    header "SwiftListFramework-Swift.h"
+    requires objc
+}
